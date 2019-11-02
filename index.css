@@ -1,0 +1,76 @@
+/*这个css文件是之前项目之间拿过来的，里面有些样式有用到，有些样式不需要*/
+ul{list-style:none;margin:0;padding:0;}
+        .ulCla{
+            background: black;
+            color:white;
+            border-radius: 5px;
+        }
+        .ulCla>li:first-child{
+            margin-top: 0!important;
+        }
+        .ulCla>li{
+            width: 160px;
+            background: black;
+            color:white;
+            border-radius: 5px;
+            text-align: center;
+            margin: 2px 0;
+        }
+        
+        .ulCla>li:not(:first-child){
+            background: rgba(0, 0, 0, 0.6);
+        }
+        
+        .ulCla>li:nth-child(2):hover{
+            background: rgba(255, 0, 0,0.6);
+            color:black;
+        }
+        .ulCla>li:nth-child(3):hover{
+            background: rgba(255, 166, 0,0.6);
+            color:black;
+        }
+        .ulCla>li:nth-child(4):hover{
+            background: rgba(255, 255, 0,0.6);
+            
+            color:black;
+        }
+        .ulCla>li:nth-child(5):hover{
+            background: rgba(0, 128, 0,0.6);
+            
+            color:black;
+        }
+        .ulCla>li:nth-child(6):hover{
+            background: rgba(0, 255, 255,0.6);
+            
+            color:black;
+        }
+        .ulCla>li:nth-child(7):hover{
+            background: rgba(0, 0, 255,0.6);
+            color:black;
+        }
+        .ulCla>li:nth-child(8):hover{
+            background: rgba(128, 0, 128,0.6);
+            color:black;
+        }
+        div.btnGroup>button{
+            width: 40px;
+            height:40px;
+            margin:5px;
+            font-size: 25px;
+            border-radius: 5px;
+            background: rgba(112, 112, 112,0.5);
+            
+        }
+
+        div.unknownButton>button{
+            margin: 5px;
+            border-radius:5px;
+            background: rgba(30, 30, 158, 0.637);
+            color:white;
+            padding: 5px;
+        }
+        span.delete{
+            position: absolute;
+            right: 0;
+            top:0;
+        }
